@@ -14,6 +14,3 @@ int main(){
     cout << "modulo "  <<a%b << endl;
 
 }
-
-
-
