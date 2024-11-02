@@ -4,16 +4,16 @@ using namespace std;
 
 int main(){
 
-   int i=2;
-   bool prime =true;
-    int n=10;
-   while (i<=n-1){
-        if(n%i==0){
-           prime=false;
-           break;
-        }
+int n=4;
+int num=1;
 
-        i++;
-   }
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=i;j++){
+        cout<< num<< " ";
+        num++;
+    }
+
+    cout << endl;
+}
 
 }
