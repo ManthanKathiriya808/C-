@@ -7,7 +7,7 @@ int linearSearch(int arr[], int sz,int target){
         if (arr[i] == target){
             return i;
         }
-
+// okay   
     }
 
     return -1;
